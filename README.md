@@ -27,7 +27,7 @@ This plugin generates both single select and multi-select field and allows us to
 4. Press "Install Now" button
 5. Done and Enjoy.
 
-## Manual Installation
+### Manual Installation
 1. Download the archived zip file from WordPress Repository.
 2. Upload the plugin on `wp-content/plugins` directory.
 3. On the WordPress Admin Dashboard Navigate to Plugin > Installed Plugins.
