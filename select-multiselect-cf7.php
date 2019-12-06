@@ -19,7 +19,6 @@ class YB_Selct_Multiselct_Plugin{
 	public function __construct(){
 		add_action( 'plugins_loaded', array( $this, 'yb_load_plugin_textdomain' ) );
 		if(class_exists('WPCF7')){
-			
 			$this->yb_plugin_constants();
 			require_once YB_SM_PATH . 'includes/autoload.php';
 		}else{
@@ -32,7 +31,7 @@ class YB_Selct_Multiselct_Plugin{
 	}
 	
 	public function yb_load_plugin_textdomain() {
-		load_plugin_textdomain( 'yb-sml', false, YB_SM_BASENAME . '/languages/' );
+		load_plugin_textdomain( 'yb-sml', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 	}
 	
 	/*

@@ -2,10 +2,10 @@
 **Contributors**: baldawayash15<br>
 **Tags**: dropdown, select, multi-select, multi-dropdown, select box, cf7<br>
 **Requires WordPress**: 4.9 or higher<br>
-**Tested up to**: 5.2.4<br>
+**Tested up to**: 5.3<br>
 **Requires PHP**: 5.6<br>
 **License**: GPLv2 or later<br>
-**Version**: 1.0<br>
+**Version**: 1.1<br>
 **License URI**: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html<br>
 
 ## Description
@@ -49,5 +49,13 @@ You can pass the input placeholder when you generate the form input tag (Default
 You can enable the multiple option when you generate the form input tag.
 
 ## Changelog
+**1.1**<br> 
+- Compatible with WordPress 5.3 and CF7 5.1.6
+- Added Support for Languages - French, Chinese (Simplified) and Hindi
+- Fixed minor bugs
+  
 **1.0**<br>
 *Initial Release*
+
+## License
+[Apache License](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)

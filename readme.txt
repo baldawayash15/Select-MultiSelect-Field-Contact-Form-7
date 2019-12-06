@@ -2,7 +2,7 @@
 Contributors: baldawayash15
 Tags: dropdown, select, multi-select, multi-dropdown, select box, cf7
 Requires at least: 4.9+
-Tested up to: 5.2.4
+Tested up to: 5.3
 Requires PHP: 5.6
 License: GPLv2 or later
 Stable tag: trunk
@@ -55,6 +55,11 @@ You can enable the multiple option when you generate the form input tag.
 1. screenshot-3.png
 
 == Changelog ==
+= 1.1 = 
+- Compatible with WordPress 5.3 and CF7 5.1.6
+- Added support for Languages - French, Chinese (Simplified) and Hindi
+- Fixed minor bugs
+
 = 1.0 = 
 Initial Release
 

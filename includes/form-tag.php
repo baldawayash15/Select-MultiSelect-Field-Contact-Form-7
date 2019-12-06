@@ -36,18 +36,18 @@ function wpcf7_selct_multiselct_formtag_handler( $tag ){
 
     $atts['aria-invalid'] = $validation_error ? 'true' : 'false';
 
-    if ( $tag->has_option( 'placeholder' ) ):
-      $selct2placeholder = $tag->get_option('placeholder', '', true);
-      //$atts['data-placeholder'] = $tag->get_option('placeholder', '', true);
-      $atts['data-placeholder'] = __( $selct2placeholder, 'yb-sml' );
+    if ( $tag->has_option( 'placeholder' ) or 
+        $tag->has_option( 'watermark' ) ):
+      $atts['data-placeholder'] = $tag->get_option('placeholder', '' , true);
       $atts['data-allow-clear'] = 'true';
     else :
-      $atts['data-placeholder'] = __( '--Please Select--', 'yb-sml');
+      $atts['data-placeholder'] = __('--Please Select--', 'yb-sml');
       $atts['data-allow-clear'] = 'true';
     endif;
 
     if( $tag->has_option( 'size' ) ) :
-      $atts['data-width'] = $tag->get_option( 'size','',true );
+      $atts['data-width'] = $tag->get_option('size','',true );
+      
     else :
       $atts['data-width'] = '400px';
     endif;
