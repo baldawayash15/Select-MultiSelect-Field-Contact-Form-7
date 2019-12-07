@@ -27,7 +27,7 @@ This plugin generates both single select and multi-select field and allows us to
 4. Press "Install Now" button
 5. Done and Enjoy.
 
-## Manual Installation
+### Manual Installation
 1. Download the archived zip file from WordPress Repository.
 2. Upload the plugin on `wp-content/plugins` directory.
 3. On the WordPress Admin Dashboard Navigate to Plugin > Installed Plugins.
@@ -56,6 +56,9 @@ You can enable the multiple option when you generate the form input tag.
   
 **1.0**<br>
 *Initial Release*
+<<<<<<< HEAD
 
 ## License
 [Apache License](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+=======
+>>>>>>> d6cec86110a56530adf046326ef0f0bcb7674f80
