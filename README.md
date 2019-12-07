@@ -56,9 +56,6 @@ You can enable the multiple option when you generate the form input tag.
   
 **1.0**<br>
 *Initial Release*
-<<<<<<< HEAD
 
 ## License
 [Apache License](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-=======
->>>>>>> d6cec86110a56530adf046326ef0f0bcb7674f80
