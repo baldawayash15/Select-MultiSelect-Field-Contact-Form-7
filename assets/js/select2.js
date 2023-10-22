@@ -4502,6 +4502,11 @@ S2.define('select2/dropdown/attachBody',[
       parentOffset = $offsetParent.offset();
     }
 
+	  /* Take admin bar into account */
+	  if (typeof wpadminbar !== 'undefined') { 
+		  parentOffset.top += wpadminbar.offsetHeight;
+	  }
+	  
     css.top -= parentOffset.top;
     css.left -= parentOffset.left;
 
